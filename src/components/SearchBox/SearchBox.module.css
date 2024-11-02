@@ -1,0 +1,15 @@
+.wrap {
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 14px;
+    margin-bottom: 30px;
+}
+.text {
+
+}
+.input {
+    width: 100%;
+    height: 30px;
+}
