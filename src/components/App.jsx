@@ -15,13 +15,8 @@ function App() {
 
   useEffect(() => {
     dispatch(fetchContacts())
-    // if (searchValue) {
-    //   dispatch(apiGetProductsByQuery(searchValue));
-    // } else {
-    //   dispatch(apiGetProducts());
-    // }
   }, [dispatch]);
-  
+
   return (
     <div>
       <h1>Phonebook</h1>
