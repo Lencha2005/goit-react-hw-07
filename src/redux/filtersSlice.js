@@ -12,7 +12,7 @@ export const filtersSlice = createSlice({
             state.filter = action.payload;
     },
 }});
-
-export const selectNameFilter = state => state.filters.filter;
+console.log(filtersSlice);
+// export const selectNameFilter = state => state.filters.filter;
 export const filtersReducer = filtersSlice.reducer;
 export const {changeFilter} = filtersSlice.actions;
